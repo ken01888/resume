@@ -9,8 +9,6 @@
 
 
 
-console.log(info.toUpperCase());
-
 
 console.log("Name :", fname.toUpperCase());
 console.log("Career :", career);
@@ -23,6 +21,7 @@ console.log("*",interest[i]);
 };
 
 function displayPosition(companyName,jobTitle,discription){
+console.log('')
 console.log("My Previous Experience:");
 console.log(`${jobTitle} at ${companyName} - ${discription}`)
 }
